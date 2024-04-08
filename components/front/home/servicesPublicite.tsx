@@ -15,7 +15,7 @@ import { TfiYoutube } from "react-icons/tfi";
 import localFont from "next/font/local";
 
 const icomoonFont = localFont({
-  src: "../../../../fonts/icomoon.ttf",
+  src: "../../../fonts/icomoon.ttf",
 });
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import localFont from "next/font/local";
-import SiteWebFormTwo from '../siteWebFormTwo';
+import SiteWebFormTwo from '../common/siteWebFormTwo';
 
 const icomoonFont = localFont({
   src: "../../../../fonts/icomoon.ttf",

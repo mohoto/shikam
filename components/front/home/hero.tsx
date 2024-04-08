@@ -1,5 +1,5 @@
 import Image from "next/image"
-import SiteWebForm from "../siteWebForm"
+import SiteWebForm from "../common/siteWebForm"
 
 type Props = {}
 

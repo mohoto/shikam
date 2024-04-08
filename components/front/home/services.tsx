@@ -10,7 +10,7 @@ const raleway = Ubuntu({
 });
 
 const icomoonFont = localFont({
-  src: "../../../../fonts/icomoon.ttf",
+  src: "../../../fonts/icomoon.ttf",
 });
 
 type Props = {}
