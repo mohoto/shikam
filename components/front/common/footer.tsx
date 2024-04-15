@@ -47,18 +47,12 @@ function Footer({}: Props) {
                 <div className="space-y-4">
                     <h5 className="text-xl font-bold md:text-lg">CONTACT</h5>
                     <div className="text-lg md:text-base">
-                        <p className="flex items-center mb-1"><BsTelephoneInbound size={20} className="inline-block mr-2" />Telephone:</p>
-                        <a href="tel:+33-1-45-76-78-98" className="flex items-center">
-                        01 84 80 53 44
-                        </a>
-                    </div>
-                    <div className="text-lg md:text-base">
                         <p className="flex items-center mb-1"><HiOutlineMail className="h-4 mr-2"/>Email:</p>
-                        <p>infos@workformation.fr</p>
+                        <p>contact@shikam.frr</p>
                     </div>
                     <div className="text-lg md:text-base">
                         <p className="flex items-center mb-1"><HiOutlineLocationMarker className="h-4 mr-2"/>Adresse:</p>
-                        <p>105 rue Bobillot<br/>75013 PARIS</p>
+                        <p>30 bd de sébastopol<br/>75004 PARIS</p>
                     </div>
                 </div>
             </div>

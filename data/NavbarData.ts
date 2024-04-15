@@ -4,7 +4,7 @@ const NavbarData = [
         link: '/'
     },
     {
-        title: 'NOS FORMATIONS',
+        title: 'SITE WEB',
         link: '/formations',
        /*  subMenu: [
             {
@@ -22,38 +22,38 @@ const NavbarData = [
         ] */
     },
     {
-        title: 'NOTRE CENTRE',
-        link: '/notre-centre'
-    },
-    {
-        title: 'LES FINANCEMENTS',
+        title: 'PUBLICITÉ DIGITALE',
         icon: '',
         link: '',
         subMenu: [
             {
-                title: 'PÔLE EMPLOI',
-                link: '/financement/financement-pole-emploi'
+                title: 'Publicité sur Facebook',
+                link: '/publicite-digitale/publicite-facebook'
             },
             {
-                title: 'CPF',
-                link: '/financement/financement-cpf'
+                title: 'Publicité sur Instagram',
+                link: '/publicite-digitale/publicite-facebook'
             },
             {
-                title: 'OPCO',
-                link: '/financement/financement-opco'
+                title: 'Publicité sur LinkedIn',
+                link: '/publicite-digitale/publicite-facebook'
             },
             {
-                title: 'AGEFIPH',
-                link: '/financement/financement-agefiph' 
+                title: 'Visibilité sur Google et Bing',
+                link: '/publicite-digitale/publicite-facebook'
             },
             {
-                title: 'CPF TRANSITION PROFESSIONNEL',
-                link: '/financement/financement-cpf-transition-professionnel'
+                title: 'Publicité sur Google et Bing',
+                link: '/publicite-digitale/publicite-facebook'
+            },
+            {
+                title: 'Annonces Local Services',
+                link: '/publicite-digitale/publicite-facebook'
             },
         ]
     },
     {
-        title: 'INFOS',
+        title: 'ETUDE DE CAS',
         link: '/infos',
     },
     {

@@ -4,10 +4,10 @@ type Props = {}
 
 function GoogleProtection({}: Props) {
   return (
-    <section className="mt-24 section-padding">
+    <section className="mt-24 container">
       <div className="grid grid-cols-5">
         <div className="col-span-3">
-          <h2 className="text-4xl mb-12 font-bold text-shikam-fonce xl:!leading-relaxed">Développez votre business en attirant de nouveaux clients <span className="font-semibold text-shikam-normal">près de chez vous</span></h2>
+          <h2 className="text-4xl mb-12 font-bold text-shikam-fonce xl:!leading-relaxed">Développez votre business en attirant de nouveaux clients <span className="text-shikam-normal">près de chez vous</span></h2>
         </div>
       </div>
       <div className="grid lg:grid-cols-5 2xl:gap-x-20 lg:gap-x-10">

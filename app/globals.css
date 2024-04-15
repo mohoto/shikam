@@ -8,7 +8,7 @@
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 84% 4.9%;
  
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
@@ -70,9 +70,9 @@
   * {
     @apply border-border;
   }
-  body {
+  /* body {
     @apply bg-background text-foreground;
-  }
+  } */
   .text-shikam-degrade {
     @apply bg-gradient-to-r from-shikam-clair to-shikam-normal bg-clip-text text-transparent;
   }
@@ -95,10 +95,10 @@
     @apply xl:px-52 md:px-20 sm:px-10 px-4;
     
   }
-  /* h1, h2, h3, h4, h5, h6 {
-    @apply !leading-tight;
-  } */
-  p {
+  h1, h2, h3, h4, h5, h6 {
+    @apply !leading-[1.4];
+  }
+  p{
     @apply mb-4;
   }
 }

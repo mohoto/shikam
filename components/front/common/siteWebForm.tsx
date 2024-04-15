@@ -174,7 +174,7 @@ function SiteWebForm({}: Props) {
                 </FormItem>
                 )}
             />
-            <button type="submit" className="max-w-md rounded-full bg-shikam-degrade w-full py-3 text-white px-4 flex justify-between  hover:bg-shikam-degrade-fonce hover:text-white transition-all duration-75 ease-in-out">Estimez le prix de votre site web<HiArrowRight className="h-6 w-6 text-white"/></button>
+            <button type="submit" className="max-w-md rounded-full bg-shikam-normal w-full py-3 text-white px-4 flex justify-between  hover:bg-shikam-degrade-fonce hover:text-white transition-all duration-75 ease-in-out">Estimez le prix de votre site web<HiArrowRight className="h-6 w-6 text-white"/></button>
             </form>
         </Form>
       ) : (
@@ -192,7 +192,7 @@ function SiteWebForm({}: Props) {
                           variant="outline"
                           role="combobox"
                           className={cn(
-                          "max-w-md justify-between rounded-full h-12 bg-shikam-light border-0 text-lg shadow-[0 3px 24px rgb(0 0 0 / 10%)]",
+                          "max-w-md justify-between rounded-full h-12 bg-white border-0 text-lg shadow-light",
                           !field.value && "text-"
                           )}
                       >
@@ -200,7 +200,7 @@ function SiteWebForm({}: Props) {
                           ? languages.find(
                               (language) => language.value === field.value
                               )?.label
-                          : "Quelle produit vendez-vous ?"}
+                          : "Quel produit vendez-vous ?"}
                           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
                       </Button>
                       </FormControl>

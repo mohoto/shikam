@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Icons />
       <Services />
-      <Logos />
+      <Icons />
       <Benefits />
+      <Logos />
       <PricingWebSite />
       <ServicesPublicite />
       <GoogleProtection />   

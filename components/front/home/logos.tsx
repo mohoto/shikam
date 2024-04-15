@@ -4,36 +4,36 @@ type Props = {}
 
 function Logos({}: Props) {
   return (
-    <section className="py-20 xl:px-72">
+    <section className="my-40 container">
       <div className="flex justify-between">
         <Image
-        src="/images/home/logo_facebook_business_suite-2.png"
-        alt="Logo Google partners Shikam"
-        className="rounded-md bg-shikam-light p-2"
+        src="/images/home/facebook-partner-logo-vector.svg"
+        alt="Logo Facebook business suite"
+        className="rounded-md bg-shikal-light px-2 border-shikam-light border-2 shadow-sm"
         width={142}
         height={63}
         priority
         />
         <Image
-        src="/images/home/logo_google_partners-2.png"
-        alt="Logo Google partners Shikam"
-        className="rounded-md bg-shikam-light p-2"
+        src="/images/home/google-partner-logo-vector.svg"
+        alt="Logo Google partners"
+        className="rounded-md bg-shikal-light px-2 border-shikam-light border-2 shadow-sm"
         width={142}
         height={63}
         priority
         />
         <Image
-        src="/images/home/logo_shopify_partners-2.png"
-        alt="Logo Google partners Shikam"
-        className="rounded-md bg-shikam-light p-2"
+        src="/images/home/shopify-partner-logo-vector.svg"
+        alt="Logo Shopify partners"
+        className="rounded-md bg-shikal-light px-2 border-shikam-light border-2 shadow-sm"
         width={142}
         height={63}
         priority
         />
         <Image
-        src="/images/home/logo_France_Num-2.png"
-        alt="Logo Google partners Shikam"
-        className="rounded-md bg-shikam-light p-2"
+        src="/images/home/france-num-logo-vector.svg"
+        alt="Logo France numerique"
+        className="rounded-md bg-shikal-light px-2 border-shikam-light border-2 shadow-sm"
         width={142}
         height={63}
         priority

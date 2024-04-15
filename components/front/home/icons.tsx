@@ -9,7 +9,7 @@ type Props = {}
 
 function Icons({}: Props) {
   return (
-    <section className="lg:px-64 py-14 xl:px-72">
+    <section className="container py-14">
         <div className="flex justify-between">
             <FaGoogle className="h-12 w-12 text-gray-300"/>
             <FaLinkedin className="h-12 w-12 text-gray-300"/>

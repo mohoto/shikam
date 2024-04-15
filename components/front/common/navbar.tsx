@@ -6,6 +6,7 @@ import Image from 'next/image'
 import {useRouter} from 'next/navigation'
 import {usePathname} from 'next/navigation'
 import NavbarData from '@/data/NavbarData';
+import {cn} from '@/lib/utils';
 
 
 const Navbar = () => {
@@ -42,8 +43,8 @@ const Navbar = () => {
         <>
             <header className="z-20">
                 {/* TopHeader */}
-                <nav className={`bg-white border ${navSticky ? 'fixed top-0 z-50 w-full transition duration-500 ease-in-out shadow-lg' : undefined}`}>
-                    <div className="px-4 py-1 md:px-10">
+                <nav className={cn(navSticky ? "fixed top-0 z-50 w-full transition duration-500 ease-in-out shadow-lg bg-white border" : "bg-shikam-light pt-4")}>
+                    <div className="px-4 py-4 md:px-10">
                         <div className="flex items-center justify-between">
                             <Link href="/">
                                 {/* <div className="relative w-32 h-12 cursor-pointer md:w-44">
